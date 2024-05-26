@@ -48,7 +48,7 @@ from td import Conv2dTD
 conv_layer = Conv2dTD(64, 128, kernel_size=(3, 3))
 conv_layer.decompose(mode=2)
 ```
-With defined decompose parameters.
+With defined decomposed parameters.
 ```python
 from td import Conv2dTD
 
