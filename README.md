@@ -41,16 +41,16 @@ decomposed_layer = nn.Sequential(
 ```
 
 **Examples:**
-Decompose parameters are defined automatically.
+Decomposed parameters are defined automatically.
 ```python
-import td import Conv2dTD
+from td import Conv2dTD
 
 conv_layer = Conv2dTD(64, 128, kernel_size=(3, 3))
 conv_layer.decompose(mode=2)
 ```
 With defined decompose parameters.
 ```python
-import td import Conv2dTD
+from td import Conv2dTD
 
 conv_layer = Conv2dTD(64, 128, kernel_size=(3, 3), core_ranks=[32, 32], stick_rank=32)
 conv_layer.decompose(mode=2)
