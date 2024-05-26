@@ -41,7 +41,7 @@ decomposed_layer = nn.Sequential(
 ```
 
 **Examples:**
-Decompose parameters are defined automatically.
+Decomposed parameters are defined automatically.
 ```python
 from td import Conv2dTD
 
